@@ -17,10 +17,10 @@ func PrintStudents(students []Student) {
 func FindStudentById(sMap map[int]string, id int) {
 	name, exists := sMap[id]
 	if !exists {
-		fmt.Printf("id: %d found\n", id) // ID not found
+		fmt.Printf("id: %d found\n", id) 
 		return
 	}
-	fmt.Printf("[%d]%s found\n", id, name) // ID not found
+	fmt.Printf("[%d]%s found\n", id, name) 
 }
 
 func AddStudent(students []Student, firstName string, lastName string) []Student {
